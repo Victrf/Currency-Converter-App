@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url('currencies.jpg') no-repeat center center fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.converter-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.converter input,
+.converter select,
+.converter button {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+.converter input,
+.converter select {
+    width: 40%;
+}
+
+#convert-btn {
+    background: #00c9a7;
+    color: #000;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+#swap-btn {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+#swap-btn:hover {
+    transform: rotate(180deg);
+}
+
+
+
+/* 🌀 Common Spinner Style */
+/* .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.8s linear infinite;
+    margin: auto;
+} */
+
+/* 🎯 Spinner Sizes */
+/* .spinner.small {
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+} */
+
+/* 🔄 Page Loader */
+/* #page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1e3c72;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+} */
+
+/* 🔃 Conversion Loader */
+/* #conversion-loader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+} */
+
+/* 🚫 Hide Loader Class */
+/* .hidden {
+    display: none;
+} */
+
+/* 🔁 Spin Animation */
+/* @keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+
